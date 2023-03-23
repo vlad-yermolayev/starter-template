@@ -25,11 +25,8 @@ ___
 - And More
 
 #### Usage
-1. ```bash
+```bash
 npm install
-```
-
-2. ```bash
 gulp
 ```
 
