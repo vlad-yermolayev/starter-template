@@ -9,19 +9,12 @@ ___
 
 - All Meta & Link Tags
 - HTML5 Tags & CSS3 Props
-- CSS & JavaScript Modules
-- Offline First Service Worker
-- manifest.json
-- AMP Project
-- All Security Headers
-- Express.js Server
-- netlify.toml
-- robots.txt
-- sitemap.xml
-- browserconfig.xml
+- Scalable and Modular Architecture for CSS
+- Sass: Syntactically Awesome Style Sheets
+- Gulp: streaming build system
+- Twitter Cards & Open Graph protocol
 - .gitignore
 - README.md
-- Creative Error 404 Page
 - And More
 
 #### Usage
