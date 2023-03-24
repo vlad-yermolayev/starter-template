@@ -22,7 +22,7 @@ let path = {
     },
     src: {
         html: './src/*.html',
-        style: './src/sass/*.scss',
+        style: './src/sass/**/*.scss',
         js: './src/js/*.js',
         img: './src/img/**/*.*',
         fonts: './src/fonts/**/*.*',
@@ -47,7 +47,7 @@ const html = () => {
 }
 
 const styles = () => {
-    return gulp.src(path.src.style)
+    return gulp.src('./src/sass/style.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({ cascade: false }))
