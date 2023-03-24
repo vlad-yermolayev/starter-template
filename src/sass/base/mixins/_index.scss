@@ -1,6 +1,6 @@
-@if variable_exists(google-font) {
-    @import url($google-font);
-}
+// @if variable_exists(google-font) {
+//     @import url($google-font);
+// }
 
 @function rem($target) {
     @return ($target / $baseFontSize) * 1rem;
